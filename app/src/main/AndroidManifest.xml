@@ -16,6 +16,9 @@
             android:name=".SignActivity"
             android:exported="false" />
         <activity
+            android:name=".chooselocation"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
@@ -30,9 +33,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
